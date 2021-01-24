@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,50 @@
 		CB1083DC25BCA5AC006D81C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1083DB25BCA5AC006D81C4 /* Preview Assets.xcassets */; };
 		CB1083DE25BCA5AC006D81C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1083DD25BCA5AC006D81C4 /* Persistence.swift */; };
 		CB1083E125BCA5AC006D81C4 /* GameOfCountries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB1083DF25BCA5AC006D81C4 /* GameOfCountries.xcdatamodeld */; };
+		CB1083EC25BCB730006D81C4 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = CB1083EB25BCB730006D81C4 /* Logging */; };
+		CB1083EF25BCCC35006D81C4 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1083EE25BCCC35006D81C4 /* Logger.swift */; };
+		CB10841425BCDC6C006D81C4 /* GameOfCountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10841325BCDC6C006D81C4 /* GameOfCountriesTests.swift */; };
+		CB10842B25BCE01F006D81C4 /* JSONParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10842A25BCE01F006D81C4 /* JSONParameterEncoding.swift */; };
+		CB10843125BCE043006D81C4 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10843025BCE043006D81C4 /* ParameterEncoding.swift */; };
+		CB10843525BCE060006D81C4 /* UrlParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10843425BCE060006D81C4 /* UrlParameterEncoding.swift */; };
+		CB10843D25BCE129006D81C4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10843C25BCE129006D81C4 /* NetworkManager.swift */; };
+		CB10844425BCE167006D81C4 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10844325BCE167006D81C4 /* EndPointType.swift */; };
+		CB10844825BCE189006D81C4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10844725BCE189006D81C4 /* HTTPMethod.swift */; };
+		CB10844C25BCE1AD006D81C4 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10844B25BCE1AD006D81C4 /* HTTPTask.swift */; };
+		CB10845025BCE1CC006D81C4 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10844F25BCE1CC006D81C4 /* NetworkLogger.swift */; };
+		CB10845425BCE332006D81C4 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845325BCE332006D81C4 /* NetworkRouter.swift */; };
+		CB10845825BCE35A006D81C4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845725BCE35A006D81C4 /* Router.swift */; };
+		CB10845C25BCE508006D81C4 /* CountriesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */; };
+		CB10846225BCE57F006D81C4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10846125BCE57F006D81C4 /* String+Extensions.swift */; };
+		CBE0B69E25BD028F00B99694 /* Timezone+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68C25BD028F00B99694 /* Timezone+CoreDataClass.swift */; };
+		CBE0B69F25BD028F00B99694 /* Timezone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68D25BD028F00B99694 /* Timezone+CoreDataProperties.swift */; };
+		CBE0B6A025BD028F00B99694 /* Language+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68E25BD028F00B99694 /* Language+CoreDataClass.swift */; };
+		CBE0B6A125BD028F00B99694 /* Language+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68F25BD028F00B99694 /* Language+CoreDataProperties.swift */; };
+		CBE0B6A225BD028F00B99694 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69025BD028F00B99694 /* Location+CoreDataClass.swift */; };
+		CBE0B6A325BD028F00B99694 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69125BD028F00B99694 /* Location+CoreDataProperties.swift */; };
+		CBE0B6A425BD028F00B99694 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69225BD028F00B99694 /* Country+CoreDataClass.swift */; };
+		CBE0B6A525BD028F00B99694 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69325BD028F00B99694 /* Country+CoreDataProperties.swift */; };
+		CBE0B6A625BD028F00B99694 /* Subregion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69425BD028F00B99694 /* Subregion+CoreDataClass.swift */; };
+		CBE0B6A725BD028F00B99694 /* Subregion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69525BD028F00B99694 /* Subregion+CoreDataProperties.swift */; };
+		CBE0B6A825BD028F00B99694 /* Currency+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69625BD028F00B99694 /* Currency+CoreDataClass.swift */; };
+		CBE0B6A925BD028F00B99694 /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69725BD028F00B99694 /* Currency+CoreDataProperties.swift */; };
+		CBE0B6AA25BD028F00B99694 /* Region+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69825BD028F00B99694 /* Region+CoreDataClass.swift */; };
+		CBE0B6AB25BD028F00B99694 /* Region+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69925BD028F00B99694 /* Region+CoreDataProperties.swift */; };
+		CBE0B6AC25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69A25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift */; };
+		CBE0B6AD25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69B25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift */; };
+		CBE0B6AE25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69C25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift */; };
+		CBE0B6AF25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69D25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB10841625BCDC6C006D81C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1083C925BCA5AA006D81C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1083D025BCA5AA006D81C4;
+			remoteInfo = GameOfCountries;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CB1083D125BCA5AA006D81C4 /* GameOfCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +67,52 @@
 		CB1083DD25BCA5AC006D81C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CB1083E025BCA5AC006D81C4 /* GameOfCountries.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameOfCountries.xcdatamodel; sourceTree = "<group>"; };
 		CB1083E225BCA5AC006D81C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1083EE25BCCC35006D81C4 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		CB10841125BCDC6C006D81C4 /* GameOfCountriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfCountriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB10841325BCDC6C006D81C4 /* GameOfCountriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfCountriesTests.swift; sourceTree = "<group>"; };
+		CB10841525BCDC6C006D81C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB10842A25BCE01F006D81C4 /* JSONParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoding.swift; sourceTree = "<group>"; };
+		CB10843025BCE043006D81C4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		CB10843425BCE060006D81C4 /* UrlParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlParameterEncoding.swift; sourceTree = "<group>"; };
+		CB10843C25BCE129006D81C4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CB10844325BCE167006D81C4 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		CB10844725BCE189006D81C4 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CB10844B25BCE1AD006D81C4 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		CB10844F25BCE1CC006D81C4 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		CB10845325BCE332006D81C4 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		CB10845725BCE35A006D81C4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesEndpoint.swift; sourceTree = "<group>"; };
+		CB10846125BCE57F006D81C4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CBE0B68C25BD028F00B99694 /* Timezone+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B68D25BD028F00B99694 /* Timezone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B68E25BD028F00B99694 /* Language+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B68F25BD028F00B99694 /* Language+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69025BD028F00B99694 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69125BD028F00B99694 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69225BD028F00B99694 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69325BD028F00B99694 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69425BD028F00B99694 /* Subregion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subregion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69525BD028F00B99694 /* Subregion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subregion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69625BD028F00B99694 /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69725BD028F00B99694 /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69825BD028F00B99694 /* Region+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69925BD028F00B99694 /* Region+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69A25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69B25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B69C25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiteralCountryCode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B69D25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiteralCountryCode+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CB1083CE25BCA5AA006D81C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1083EC25BCB730006D81C4 /* Logging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB10840E25BCDC6C006D81C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				CB1083D325BCA5AA006D81C4 /* GameOfCountries */,
+				CB10841225BCDC6C006D81C4 /* GameOfCountriesTests */,
 				CB1083D225BCA5AA006D81C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				CB1083D125BCA5AA006D81C4 /* GameOfCountries.app */,
+				CB10841125BCDC6C006D81C4 /* GameOfCountriesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,11 +143,12 @@
 		CB1083D325BCA5AA006D81C4 /* GameOfCountries */ = {
 			isa = PBXGroup;
 			children = (
-				CB1083D425BCA5AA006D81C4 /* GameOfCountriesApp.swift */,
-				CB1083D625BCA5AA006D81C4 /* ContentView.swift */,
+				CB10842525BCDD11006D81C4 /* Application */,
+				CB10842625BCDFDB006D81C4 /* NetworkLayer */,
+				CB10845F25BCE55F006D81C4 /* Utilities */,
 				CB1083D825BCA5AC006D81C4 /* Assets.xcassets */,
+				CB1083D625BCA5AA006D81C4 /* ContentView.swift */,
 				CB1083DD25BCA5AC006D81C4 /* Persistence.swift */,
-				CB1083E225BCA5AC006D81C4 /* Info.plist */,
 				CB1083DF25BCA5AC006D81C4 /* GameOfCountries.xcdatamodeld */,
 				CB1083DA25BCA5AC006D81C4 /* Preview Content */,
 			);
@@ -75,6 +163,197 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CB10841225BCDC6C006D81C4 /* GameOfCountriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB10841325BCDC6C006D81C4 /* GameOfCountriesTests.swift */,
+				CB10841525BCDC6C006D81C4 /* Info.plist */,
+			);
+			path = GameOfCountriesTests;
+			sourceTree = "<group>";
+		};
+		CB10842525BCDD11006D81C4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CB1083D425BCA5AA006D81C4 /* GameOfCountriesApp.swift */,
+				CB1083E225BCA5AC006D81C4 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CB10842625BCDFDB006D81C4 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CB10842825BCDFF8006D81C4 /* Networking */,
+				CB10842725BCDFEB006D81C4 /* Models */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		CB10842725BCDFEB006D81C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B6B725BD02DD00B99694 /* Language */,
+				CBE0B6B625BD02D100B99694 /* Timezone */,
+				CBE0B6B825BD02EE00B99694 /* Location */,
+				CBE0B6BB25BD02F800B99694 /* Country */,
+				CBE0B6BE25BD02FF00B99694 /* Subregion */,
+				CBE0B6C325BD030C00B99694 /* Currency */,
+				CBE0B6C825BD031300B99694 /* Region */,
+				CBE0B6CB25BD031A00B99694 /* RegionalBloc */,
+				CBE0B6D025BD032500B99694 /* LiteralCountryCode */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB10842825BCDFF8006D81C4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CB10844225BCE152006D81C4 /* Service */,
+				CB10843B25BCE117006D81C4 /* Managers */,
+				CB10843A25BCE0FB006D81C4 /* Endpoints */,
+				CB10842925BCE003006D81C4 /* Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CB10842925BCE003006D81C4 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				CB10843025BCE043006D81C4 /* ParameterEncoding.swift */,
+				CB10842A25BCE01F006D81C4 /* JSONParameterEncoding.swift */,
+				CB10843425BCE060006D81C4 /* UrlParameterEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		CB10843A25BCE0FB006D81C4 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		CB10843B25BCE117006D81C4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CB10843C25BCE129006D81C4 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CB10844225BCE152006D81C4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CB10844325BCE167006D81C4 /* EndPointType.swift */,
+				CB10844725BCE189006D81C4 /* HTTPMethod.swift */,
+				CB10844B25BCE1AD006D81C4 /* HTTPTask.swift */,
+				CB10844F25BCE1CC006D81C4 /* NetworkLogger.swift */,
+				CB10845325BCE332006D81C4 /* NetworkRouter.swift */,
+				CB10845725BCE35A006D81C4 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CB10845F25BCE55F006D81C4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CB1083EE25BCCC35006D81C4 /* Logger.swift */,
+				CB10846025BCE568006D81C4 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CB10846025BCE568006D81C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB10846125BCE57F006D81C4 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CBE0B6B625BD02D100B99694 /* Timezone */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B68C25BD028F00B99694 /* Timezone+CoreDataClass.swift */,
+				CBE0B68D25BD028F00B99694 /* Timezone+CoreDataProperties.swift */,
+			);
+			path = Timezone;
+			sourceTree = "<group>";
+		};
+		CBE0B6B725BD02DD00B99694 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B68E25BD028F00B99694 /* Language+CoreDataClass.swift */,
+				CBE0B68F25BD028F00B99694 /* Language+CoreDataProperties.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		CBE0B6B825BD02EE00B99694 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69025BD028F00B99694 /* Location+CoreDataClass.swift */,
+				CBE0B69125BD028F00B99694 /* Location+CoreDataProperties.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		CBE0B6BB25BD02F800B99694 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69225BD028F00B99694 /* Country+CoreDataClass.swift */,
+				CBE0B69325BD028F00B99694 /* Country+CoreDataProperties.swift */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		CBE0B6BE25BD02FF00B99694 /* Subregion */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69425BD028F00B99694 /* Subregion+CoreDataClass.swift */,
+				CBE0B69525BD028F00B99694 /* Subregion+CoreDataProperties.swift */,
+			);
+			path = Subregion;
+			sourceTree = "<group>";
+		};
+		CBE0B6C325BD030C00B99694 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69625BD028F00B99694 /* Currency+CoreDataClass.swift */,
+				CBE0B69725BD028F00B99694 /* Currency+CoreDataProperties.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		CBE0B6C825BD031300B99694 /* Region */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69825BD028F00B99694 /* Region+CoreDataClass.swift */,
+				CBE0B69925BD028F00B99694 /* Region+CoreDataProperties.swift */,
+			);
+			path = Region;
+			sourceTree = "<group>";
+		};
+		CBE0B6CB25BD031A00B99694 /* RegionalBloc */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69A25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift */,
+				CBE0B69B25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift */,
+			);
+			path = RegionalBloc;
+			sourceTree = "<group>";
+		};
+		CBE0B6D025BD032500B99694 /* LiteralCountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				CBE0B69C25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift */,
+				CBE0B69D25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift */,
+			);
+			path = LiteralCountryCode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1083E525BCA5AC006D81C4 /* Build configuration list for PBXNativeTarget "GameOfCountries" */;
 			buildPhases = (
+				CB1083FE25BCCF34006D81C4 /* SwiftLint */,
 				CB1083CD25BCA5AA006D81C4 /* Sources */,
 				CB1083CE25BCA5AA006D81C4 /* Frameworks */,
 				CB1083CF25BCA5AA006D81C4 /* Resources */,
@@ -91,9 +371,30 @@
 			dependencies = (
 			);
 			name = GameOfCountries;
+			packageProductDependencies = (
+				CB1083EB25BCB730006D81C4 /* Logging */,
+			);
 			productName = GameOfCountries;
 			productReference = CB1083D125BCA5AA006D81C4 /* GameOfCountries.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CB10841025BCDC6C006D81C4 /* GameOfCountriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB10841825BCDC6C006D81C4 /* Build configuration list for PBXNativeTarget "GameOfCountriesTests" */;
+			buildPhases = (
+				CB10840D25BCDC6C006D81C4 /* Sources */,
+				CB10840E25BCDC6C006D81C4 /* Frameworks */,
+				CB10840F25BCDC6C006D81C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB10841725BCDC6C006D81C4 /* PBXTargetDependency */,
+			);
+			name = GameOfCountriesTests;
+			productName = GameOfCountriesTests;
+			productReference = CB10841125BCDC6C006D81C4 /* GameOfCountriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +408,10 @@
 					CB1083D025BCA5AA006D81C4 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					CB10841025BCDC6C006D81C4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CB1083D025BCA5AA006D81C4;
+					};
 				};
 			};
 			buildConfigurationList = CB1083CC25BCA5AA006D81C4 /* Build configuration list for PBXProject "GameOfCountries" */;
@@ -118,11 +423,15 @@
 				Base,
 			);
 			mainGroup = CB1083C825BCA5AA006D81C4;
+			packageReferences = (
+				CB1083EA25BCB730006D81C4 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			productRefGroup = CB1083D225BCA5AA006D81C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CB1083D025BCA5AA006D81C4 /* GameOfCountries */,
+				CB10841025BCDC6C006D81C4 /* GameOfCountriesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -137,21 +446,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB10840F25BCDC6C006D81C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB1083FE25BCCF34006D81C4 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB1083CD25BCA5AA006D81C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE0B69F25BD028F00B99694 /* Timezone+CoreDataProperties.swift in Sources */,
+				CBE0B6AB25BD028F00B99694 /* Region+CoreDataProperties.swift in Sources */,
+				CB10844C25BCE1AD006D81C4 /* HTTPTask.swift in Sources */,
+				CB10843D25BCE129006D81C4 /* NetworkManager.swift in Sources */,
+				CB10843525BCE060006D81C4 /* UrlParameterEncoding.swift in Sources */,
+				CBE0B6A325BD028F00B99694 /* Location+CoreDataProperties.swift in Sources */,
+				CB10843125BCE043006D81C4 /* ParameterEncoding.swift in Sources */,
+				CBE0B6A925BD028F00B99694 /* Currency+CoreDataProperties.swift in Sources */,
+				CB10844825BCE189006D81C4 /* HTTPMethod.swift in Sources */,
+				CBE0B6A025BD028F00B99694 /* Language+CoreDataClass.swift in Sources */,
+				CB10845025BCE1CC006D81C4 /* NetworkLogger.swift in Sources */,
+				CB1083EF25BCCC35006D81C4 /* Logger.swift in Sources */,
+				CBE0B6AD25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */,
+				CBE0B6A125BD028F00B99694 /* Language+CoreDataProperties.swift in Sources */,
+				CBE0B69E25BD028F00B99694 /* Timezone+CoreDataClass.swift in Sources */,
+				CB10845825BCE35A006D81C4 /* Router.swift in Sources */,
+				CBE0B6A625BD028F00B99694 /* Subregion+CoreDataClass.swift in Sources */,
+				CBE0B6A225BD028F00B99694 /* Location+CoreDataClass.swift in Sources */,
+				CBE0B6A825BD028F00B99694 /* Currency+CoreDataClass.swift in Sources */,
 				CB1083DE25BCA5AC006D81C4 /* Persistence.swift in Sources */,
+				CBE0B6A525BD028F00B99694 /* Country+CoreDataProperties.swift in Sources */,
+				CBE0B6AC25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift in Sources */,
+				CB10842B25BCE01F006D81C4 /* JSONParameterEncoding.swift in Sources */,
 				CB1083D725BCA5AA006D81C4 /* ContentView.swift in Sources */,
 				CB1083D525BCA5AA006D81C4 /* GameOfCountriesApp.swift in Sources */,
+				CB10846225BCE57F006D81C4 /* String+Extensions.swift in Sources */,
+				CB10844425BCE167006D81C4 /* EndPointType.swift in Sources */,
+				CBE0B6A725BD028F00B99694 /* Subregion+CoreDataProperties.swift in Sources */,
 				CB1083E125BCA5AC006D81C4 /* GameOfCountries.xcdatamodeld in Sources */,
+				CB10845425BCE332006D81C4 /* NetworkRouter.swift in Sources */,
+				CB10845C25BCE508006D81C4 /* CountriesEndpoint.swift in Sources */,
+				CBE0B6A425BD028F00B99694 /* Country+CoreDataClass.swift in Sources */,
+				CBE0B6AF25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */,
+				CBE0B6AE25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */,
+				CBE0B6AA25BD028F00B99694 /* Region+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB10840D25BCDC6C006D81C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB10841425BCDC6C006D81C4 /* GameOfCountriesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB10841725BCDC6C006D81C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB1083D025BCA5AA006D81C4 /* GameOfCountries */;
+			targetProxy = CB10841625BCDC6C006D81C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CB1083E325BCA5AC006D81C4 /* Debug */ = {
@@ -314,6 +698,46 @@
 			};
 			name = Release;
 		};
+		CB10841925BCDC6C006D81C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BNY448B4;
+				INFOPLIST_FILE = GameOfCountriesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laziest.GameOfCountriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfCountries.app/GameOfCountries";
+			};
+			name = Debug;
+		};
+		CB10841A25BCDC6C006D81C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BNY448B4;
+				INFOPLIST_FILE = GameOfCountriesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laziest.GameOfCountriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfCountries.app/GameOfCountries";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,7 +759,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CB10841825BCDC6C006D81C4 /* Build configuration list for PBXNativeTarget "GameOfCountriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB10841925BCDC6C006D81C4 /* Debug */,
+				CB10841A25BCDC6C006D81C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB1083EA25BCB730006D81C4 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB1083EB25BCB730006D81C4 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB1083EA25BCB730006D81C4 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CB1083DF25BCA5AC006D81C4 /* GameOfCountries.xcdatamodeld */ = {
