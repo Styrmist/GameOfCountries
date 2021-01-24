@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(Subregion)
+
 public class Subregion: NSManagedObject {
 
 }

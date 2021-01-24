@@ -28,24 +28,24 @@
 		CB10845825BCE35A006D81C4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845725BCE35A006D81C4 /* Router.swift */; };
 		CB10845C25BCE508006D81C4 /* CountriesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */; };
 		CB10846225BCE57F006D81C4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10846125BCE57F006D81C4 /* String+Extensions.swift */; };
-		CBE0B69E25BD028F00B99694 /* Timezone+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68C25BD028F00B99694 /* Timezone+CoreDataClass.swift */; };
-		CBE0B69F25BD028F00B99694 /* Timezone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68D25BD028F00B99694 /* Timezone+CoreDataProperties.swift */; };
-		CBE0B6A025BD028F00B99694 /* Language+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68E25BD028F00B99694 /* Language+CoreDataClass.swift */; };
-		CBE0B6A125BD028F00B99694 /* Language+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B68F25BD028F00B99694 /* Language+CoreDataProperties.swift */; };
-		CBE0B6A225BD028F00B99694 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69025BD028F00B99694 /* Location+CoreDataClass.swift */; };
-		CBE0B6A325BD028F00B99694 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69125BD028F00B99694 /* Location+CoreDataProperties.swift */; };
-		CBE0B6A425BD028F00B99694 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69225BD028F00B99694 /* Country+CoreDataClass.swift */; };
-		CBE0B6A525BD028F00B99694 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69325BD028F00B99694 /* Country+CoreDataProperties.swift */; };
-		CBE0B6A625BD028F00B99694 /* Subregion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69425BD028F00B99694 /* Subregion+CoreDataClass.swift */; };
-		CBE0B6A725BD028F00B99694 /* Subregion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69525BD028F00B99694 /* Subregion+CoreDataProperties.swift */; };
-		CBE0B6A825BD028F00B99694 /* Currency+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69625BD028F00B99694 /* Currency+CoreDataClass.swift */; };
-		CBE0B6A925BD028F00B99694 /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69725BD028F00B99694 /* Currency+CoreDataProperties.swift */; };
-		CBE0B6AA25BD028F00B99694 /* Region+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69825BD028F00B99694 /* Region+CoreDataClass.swift */; };
-		CBE0B6AB25BD028F00B99694 /* Region+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69925BD028F00B99694 /* Region+CoreDataProperties.swift */; };
-		CBE0B6AC25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69A25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift */; };
-		CBE0B6AD25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69B25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift */; };
-		CBE0B6AE25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69C25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift */; };
-		CBE0B6AF25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B69D25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift */; };
+		CBE0B6E725BD06C400B99694 /* Timezone+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D525BD06C400B99694 /* Timezone+CoreDataClass.swift */; };
+		CBE0B6E825BD06C400B99694 /* Timezone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D625BD06C400B99694 /* Timezone+CoreDataProperties.swift */; };
+		CBE0B6E925BD06C400B99694 /* RegionalBloc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D725BD06C400B99694 /* RegionalBloc+CoreDataClass.swift */; };
+		CBE0B6EA25BD06C400B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D825BD06C400B99694 /* RegionalBloc+CoreDataProperties.swift */; };
+		CBE0B6EB25BD06C400B99694 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D925BD06C400B99694 /* Country+CoreDataClass.swift */; };
+		CBE0B6EC25BD06C400B99694 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6DA25BD06C400B99694 /* Country+CoreDataProperties.swift */; };
+		CBE0B6ED25BD06C400B99694 /* Subregion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6DB25BD06C400B99694 /* Subregion+CoreDataClass.swift */; };
+		CBE0B6EE25BD06C400B99694 /* Subregion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6DC25BD06C400B99694 /* Subregion+CoreDataProperties.swift */; };
+		CBE0B6EF25BD06C400B99694 /* Region+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6DD25BD06C400B99694 /* Region+CoreDataClass.swift */; };
+		CBE0B6F025BD06C400B99694 /* Region+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6DE25BD06C400B99694 /* Region+CoreDataProperties.swift */; };
+		CBE0B6F125BD06C400B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6DF25BD06C400B99694 /* LiteralCountryCode+CoreDataClass.swift */; };
+		CBE0B6F225BD06C400B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E025BD06C400B99694 /* LiteralCountryCode+CoreDataProperties.swift */; };
+		CBE0B6F325BD06C400B99694 /* Language+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E125BD06C400B99694 /* Language+CoreDataClass.swift */; };
+		CBE0B6F425BD06C400B99694 /* Language+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E225BD06C400B99694 /* Language+CoreDataProperties.swift */; };
+		CBE0B6F525BD06C400B99694 /* Currency+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E325BD06C400B99694 /* Currency+CoreDataClass.swift */; };
+		CBE0B6F625BD06C400B99694 /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E425BD06C400B99694 /* Currency+CoreDataProperties.swift */; };
+		CBE0B6F725BD06C400B99694 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E525BD06C400B99694 /* Location+CoreDataClass.swift */; };
+		CBE0B6F825BD06C400B99694 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6E625BD06C400B99694 /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,24 +83,24 @@
 		CB10845725BCE35A006D81C4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesEndpoint.swift; sourceTree = "<group>"; };
 		CB10846125BCE57F006D81C4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		CBE0B68C25BD028F00B99694 /* Timezone+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B68D25BD028F00B99694 /* Timezone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B68E25BD028F00B99694 /* Language+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B68F25BD028F00B99694 /* Language+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69025BD028F00B99694 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69125BD028F00B99694 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69225BD028F00B99694 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69325BD028F00B99694 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69425BD028F00B99694 /* Subregion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subregion+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69525BD028F00B99694 /* Subregion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subregion+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69625BD028F00B99694 /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69725BD028F00B99694 /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69825BD028F00B99694 /* Region+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69925BD028F00B99694 /* Region+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69A25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69B25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CBE0B69C25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiteralCountryCode+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CBE0B69D25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiteralCountryCode+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6D525BD06C400B99694 /* Timezone+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6D625BD06C400B99694 /* Timezone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6D725BD06C400B99694 /* RegionalBloc+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6D825BD06C400B99694 /* RegionalBloc+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6D925BD06C400B99694 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6DA25BD06C400B99694 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6DB25BD06C400B99694 /* Subregion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subregion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6DC25BD06C400B99694 /* Subregion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subregion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6DD25BD06C400B99694 /* Region+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6DE25BD06C400B99694 /* Region+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Region+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6DF25BD06C400B99694 /* LiteralCountryCode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiteralCountryCode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6E025BD06C400B99694 /* LiteralCountryCode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiteralCountryCode+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6E125BD06C400B99694 /* Language+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6E225BD06C400B99694 /* Language+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6E325BD06C400B99694 /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6E425BD06C400B99694 /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CBE0B6E525BD06C400B99694 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CBE0B6E625BD06C400B99694 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,8 +276,8 @@
 		CBE0B6B625BD02D100B99694 /* Timezone */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B68C25BD028F00B99694 /* Timezone+CoreDataClass.swift */,
-				CBE0B68D25BD028F00B99694 /* Timezone+CoreDataProperties.swift */,
+				CBE0B6D525BD06C400B99694 /* Timezone+CoreDataClass.swift */,
+				CBE0B6D625BD06C400B99694 /* Timezone+CoreDataProperties.swift */,
 			);
 			path = Timezone;
 			sourceTree = "<group>";
@@ -285,8 +285,8 @@
 		CBE0B6B725BD02DD00B99694 /* Language */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B68E25BD028F00B99694 /* Language+CoreDataClass.swift */,
-				CBE0B68F25BD028F00B99694 /* Language+CoreDataProperties.swift */,
+				CBE0B6E125BD06C400B99694 /* Language+CoreDataClass.swift */,
+				CBE0B6E225BD06C400B99694 /* Language+CoreDataProperties.swift */,
 			);
 			path = Language;
 			sourceTree = "<group>";
@@ -294,8 +294,8 @@
 		CBE0B6B825BD02EE00B99694 /* Location */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69025BD028F00B99694 /* Location+CoreDataClass.swift */,
-				CBE0B69125BD028F00B99694 /* Location+CoreDataProperties.swift */,
+				CBE0B6E525BD06C400B99694 /* Location+CoreDataClass.swift */,
+				CBE0B6E625BD06C400B99694 /* Location+CoreDataProperties.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -303,8 +303,8 @@
 		CBE0B6BB25BD02F800B99694 /* Country */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69225BD028F00B99694 /* Country+CoreDataClass.swift */,
-				CBE0B69325BD028F00B99694 /* Country+CoreDataProperties.swift */,
+				CBE0B6D925BD06C400B99694 /* Country+CoreDataClass.swift */,
+				CBE0B6DA25BD06C400B99694 /* Country+CoreDataProperties.swift */,
 			);
 			path = Country;
 			sourceTree = "<group>";
@@ -312,8 +312,8 @@
 		CBE0B6BE25BD02FF00B99694 /* Subregion */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69425BD028F00B99694 /* Subregion+CoreDataClass.swift */,
-				CBE0B69525BD028F00B99694 /* Subregion+CoreDataProperties.swift */,
+				CBE0B6DB25BD06C400B99694 /* Subregion+CoreDataClass.swift */,
+				CBE0B6DC25BD06C400B99694 /* Subregion+CoreDataProperties.swift */,
 			);
 			path = Subregion;
 			sourceTree = "<group>";
@@ -321,8 +321,8 @@
 		CBE0B6C325BD030C00B99694 /* Currency */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69625BD028F00B99694 /* Currency+CoreDataClass.swift */,
-				CBE0B69725BD028F00B99694 /* Currency+CoreDataProperties.swift */,
+				CBE0B6E325BD06C400B99694 /* Currency+CoreDataClass.swift */,
+				CBE0B6E425BD06C400B99694 /* Currency+CoreDataProperties.swift */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -330,8 +330,8 @@
 		CBE0B6C825BD031300B99694 /* Region */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69825BD028F00B99694 /* Region+CoreDataClass.swift */,
-				CBE0B69925BD028F00B99694 /* Region+CoreDataProperties.swift */,
+				CBE0B6DD25BD06C400B99694 /* Region+CoreDataClass.swift */,
+				CBE0B6DE25BD06C400B99694 /* Region+CoreDataProperties.swift */,
 			);
 			path = Region;
 			sourceTree = "<group>";
@@ -339,8 +339,8 @@
 		CBE0B6CB25BD031A00B99694 /* RegionalBloc */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69A25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift */,
-				CBE0B69B25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift */,
+				CBE0B6D725BD06C400B99694 /* RegionalBloc+CoreDataClass.swift */,
+				CBE0B6D825BD06C400B99694 /* RegionalBloc+CoreDataProperties.swift */,
 			);
 			path = RegionalBloc;
 			sourceTree = "<group>";
@@ -348,8 +348,8 @@
 		CBE0B6D025BD032500B99694 /* LiteralCountryCode */ = {
 			isa = PBXGroup;
 			children = (
-				CBE0B69C25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift */,
-				CBE0B69D25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift */,
+				CBE0B6DF25BD06C400B99694 /* LiteralCountryCode+CoreDataClass.swift */,
+				CBE0B6E025BD06C400B99694 /* LiteralCountryCode+CoreDataProperties.swift */,
 			);
 			path = LiteralCountryCode;
 			sourceTree = "<group>";
@@ -481,41 +481,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE0B69F25BD028F00B99694 /* Timezone+CoreDataProperties.swift in Sources */,
-				CBE0B6AB25BD028F00B99694 /* Region+CoreDataProperties.swift in Sources */,
+				CBE0B6F725BD06C400B99694 /* Location+CoreDataClass.swift in Sources */,
 				CB10844C25BCE1AD006D81C4 /* HTTPTask.swift in Sources */,
+				CBE0B6F125BD06C400B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */,
 				CB10843D25BCE129006D81C4 /* NetworkManager.swift in Sources */,
 				CB10843525BCE060006D81C4 /* UrlParameterEncoding.swift in Sources */,
-				CBE0B6A325BD028F00B99694 /* Location+CoreDataProperties.swift in Sources */,
 				CB10843125BCE043006D81C4 /* ParameterEncoding.swift in Sources */,
-				CBE0B6A925BD028F00B99694 /* Currency+CoreDataProperties.swift in Sources */,
 				CB10844825BCE189006D81C4 /* HTTPMethod.swift in Sources */,
-				CBE0B6A025BD028F00B99694 /* Language+CoreDataClass.swift in Sources */,
+				CBE0B6F225BD06C400B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */,
 				CB10845025BCE1CC006D81C4 /* NetworkLogger.swift in Sources */,
 				CB1083EF25BCCC35006D81C4 /* Logger.swift in Sources */,
-				CBE0B6AD25BD028F00B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */,
-				CBE0B6A125BD028F00B99694 /* Language+CoreDataProperties.swift in Sources */,
-				CBE0B69E25BD028F00B99694 /* Timezone+CoreDataClass.swift in Sources */,
 				CB10845825BCE35A006D81C4 /* Router.swift in Sources */,
-				CBE0B6A625BD028F00B99694 /* Subregion+CoreDataClass.swift in Sources */,
-				CBE0B6A225BD028F00B99694 /* Location+CoreDataClass.swift in Sources */,
-				CBE0B6A825BD028F00B99694 /* Currency+CoreDataClass.swift in Sources */,
+				CBE0B6E825BD06C400B99694 /* Timezone+CoreDataProperties.swift in Sources */,
+				CBE0B6ED25BD06C400B99694 /* Subregion+CoreDataClass.swift in Sources */,
+				CBE0B6F425BD06C400B99694 /* Language+CoreDataProperties.swift in Sources */,
+				CBE0B6EF25BD06C400B99694 /* Region+CoreDataClass.swift in Sources */,
 				CB1083DE25BCA5AC006D81C4 /* Persistence.swift in Sources */,
-				CBE0B6A525BD028F00B99694 /* Country+CoreDataProperties.swift in Sources */,
-				CBE0B6AC25BD028F00B99694 /* RegionalBloc+CoreDataClass.swift in Sources */,
+				CBE0B6EE25BD06C400B99694 /* Subregion+CoreDataProperties.swift in Sources */,
+				CBE0B6EC25BD06C400B99694 /* Country+CoreDataProperties.swift in Sources */,
 				CB10842B25BCE01F006D81C4 /* JSONParameterEncoding.swift in Sources */,
 				CB1083D725BCA5AA006D81C4 /* ContentView.swift in Sources */,
 				CB1083D525BCA5AA006D81C4 /* GameOfCountriesApp.swift in Sources */,
+				CBE0B6F025BD06C400B99694 /* Region+CoreDataProperties.swift in Sources */,
+				CBE0B6E925BD06C400B99694 /* RegionalBloc+CoreDataClass.swift in Sources */,
+				CBE0B6EA25BD06C400B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */,
 				CB10846225BCE57F006D81C4 /* String+Extensions.swift in Sources */,
 				CB10844425BCE167006D81C4 /* EndPointType.swift in Sources */,
-				CBE0B6A725BD028F00B99694 /* Subregion+CoreDataProperties.swift in Sources */,
+				CBE0B6F525BD06C400B99694 /* Currency+CoreDataClass.swift in Sources */,
+				CBE0B6F825BD06C400B99694 /* Location+CoreDataProperties.swift in Sources */,
 				CB1083E125BCA5AC006D81C4 /* GameOfCountries.xcdatamodeld in Sources */,
 				CB10845425BCE332006D81C4 /* NetworkRouter.swift in Sources */,
+				CBE0B6F625BD06C400B99694 /* Currency+CoreDataProperties.swift in Sources */,
 				CB10845C25BCE508006D81C4 /* CountriesEndpoint.swift in Sources */,
-				CBE0B6A425BD028F00B99694 /* Country+CoreDataClass.swift in Sources */,
-				CBE0B6AF25BD028F00B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */,
-				CBE0B6AE25BD028F00B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */,
-				CBE0B6AA25BD028F00B99694 /* Region+CoreDataClass.swift in Sources */,
+				CBE0B6E725BD06C400B99694 /* Timezone+CoreDataClass.swift in Sources */,
+				CBE0B6EB25BD06C400B99694 /* Country+CoreDataClass.swift in Sources */,
+				CBE0B6F325BD06C400B99694 /* Language+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

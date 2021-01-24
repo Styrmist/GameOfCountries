@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(LiteralCountryCode)
+
 public class LiteralCountryCode: NSManagedObject {
 
 }

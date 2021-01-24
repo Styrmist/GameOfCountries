@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Country" representedClassName="Country" syncable="YES">
+    <entity name="Country" representedClassName=".Country" syncable="YES" codeGenerationType="category">
         <attribute name="alpha2Code" optional="YES" attributeType="String"/>
         <attribute name="alpha3Code" optional="YES" attributeType="String"/>
         <attribute name="altSpellings" optional="YES"/>
@@ -23,42 +23,42 @@
         <relationship name="subregion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subregion" inverseName="country" inverseEntity="Subregion"/>
         <relationship name="timezones" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Timezone" inverseName="country" inverseEntity="Timezone"/>
     </entity>
-    <entity name="Currency" representedClassName="Currency" syncable="YES" codeGenerationType="class">
+    <entity name="Currency" representedClassName=".Currency" syncable="YES" codeGenerationType="category">
         <attribute name="code" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="symbol" optional="YES" attributeType="String"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="currencies" inverseEntity="Country"/>
     </entity>
-    <entity name="Language" representedClassName="Language" syncable="YES" codeGenerationType="class">
+    <entity name="Language" representedClassName=".Language" syncable="YES" codeGenerationType="category">
         <attribute name="iso639_1" optional="YES" attributeType="String"/>
         <attribute name="iso639_2" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="nativeName" optional="YES" attributeType="String"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="languages" inverseEntity="Country"/>
     </entity>
-    <entity name="LiteralCountryCode" representedClassName="LiteralCountryCode" syncable="YES" codeGenerationType="class">
+    <entity name="LiteralCountryCode" representedClassName=".LiteralCountryCode" syncable="YES" codeGenerationType="category">
         <attribute name="code" optional="YES" attributeType="String"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="cioc" inverseEntity="Country"/>
     </entity>
-    <entity name="Location" representedClassName="Location" syncable="YES" codeGenerationType="class">
+    <entity name="Location" representedClassName=".Location" syncable="YES" codeGenerationType="category">
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <relationship name="country" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Country" inverseName="latlng" inverseEntity="Country"/>
     </entity>
-    <entity name="Region" representedClassName="Region" syncable="YES">
+    <entity name="Region" representedClassName=".Region" syncable="YES" codeGenerationType="category">
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="region" inverseEntity="Country"/>
     </entity>
-    <entity name="RegionalBloc" representedClassName="RegionalBloc" syncable="YES" codeGenerationType="class">
+    <entity name="RegionalBloc" representedClassName=".RegionalBloc" syncable="YES" codeGenerationType="category">
         <attribute name="acronym" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="regionalBlocs" inverseEntity="Country"/>
     </entity>
-    <entity name="Subregion" representedClassName="Subregion" syncable="YES" codeGenerationType="class">
+    <entity name="Subregion" representedClassName=".Subregion" syncable="YES" codeGenerationType="category">
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="subregion" inverseEntity="Country"/>
     </entity>
-    <entity name="Timezone" representedClassName="Timezone" syncable="YES" codeGenerationType="class">
+    <entity name="Timezone" representedClassName=".Timezone" syncable="YES" codeGenerationType="category">
         <attribute name="utc" optional="YES" attributeType="Transformable"/>
         <relationship name="country" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Country" inverseName="timezones" inverseEntity="Country"/>
     </entity>

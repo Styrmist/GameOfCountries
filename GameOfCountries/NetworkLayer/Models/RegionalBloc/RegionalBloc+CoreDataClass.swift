@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(RegionalBloc)
+
 public class RegionalBloc: NSManagedObject {
 
 }
