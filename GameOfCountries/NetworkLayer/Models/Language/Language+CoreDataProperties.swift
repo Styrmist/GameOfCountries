@@ -19,25 +19,24 @@ extension Language {
     @NSManaged public var iso639_2: String?
     @NSManaged public var name: String?
     @NSManaged public var nativeName: String?
-    @NSManaged public var country: NSSet?
-
+    @NSManaged public var countries: NSSet?
     // swiftlint:enable identifier_name
 }
 
 // MARK: Generated accessors for country
 extension Language {
 
-    @objc(addCountryObject:)
-    @NSManaged public func addToCountry(_ value: Country)
+    @objc(addCountriesObject:)
+    @NSManaged public func addToCountries(_ value: Country)
 
-    @objc(removeCountryObject:)
-    @NSManaged public func removeFromCountry(_ value: Country)
+    @objc(removeCountriesObject:)
+    @NSManaged public func removeFromCountries(_ value: Country)
 
-    @objc(addCountry:)
-    @NSManaged public func addToCountry(_ values: NSSet)
+    @objc(addCountries:)
+    @NSManaged public func addToCountries(_ values: NSSet)
 
-    @objc(removeCountry:)
-    @NSManaged public func removeFromCountry(_ values: NSSet)
+    @objc(removeCountries:)
+    @NSManaged public func removeFromCountries(_ values: NSSet)
 
 }
 

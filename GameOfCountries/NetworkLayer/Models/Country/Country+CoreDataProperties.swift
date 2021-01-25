@@ -17,27 +17,25 @@ extension Country {
     }
 
     @NSManaged public var name: String?
-    @NSManaged public var topLevelDomain: NSObject?
-    @NSManaged public var alpha2Code: String?
-    @NSManaged public var alpha3Code: String?
-    @NSManaged public var capital: String?
-    @NSManaged public var callingCodes: NSObject?
-    @NSManaged public var altSpellings: NSObject?
-    @NSManaged public var demonym: String?
-    @NSManaged public var area: Double
-    @NSManaged public var nativeName: String?
-    @NSManaged public var numericCode: String?
-    @NSManaged public var flag: URL?
-    @NSManaged public var region: Region?
-    @NSManaged public var subregion: Subregion?
-    @NSManaged public var latlng: Location?
-    @NSManaged public var timezones: NSSet?
-    @NSManaged public var cioc: LiteralCountryCode?
-    @NSManaged public var borders: NSSet?
-    @NSManaged public var currencies: NSSet?
-    @NSManaged public var languages: NSSet?
-    @NSManaged public var regionalBlocs: RegionalBloc?
-
+//    @NSManaged public var topLevelDomain: NSSet?
+//    @NSManaged public var alpha2Code: String?//
+//    @NSManaged public var alpha3Code: String?//
+//    @NSManaged public var capital: String? //
+//    @NSManaged public var callingCodes: NSSet? //
+//    @NSManaged public var demonym: String? //
+//    @NSManaged public var area: Double //
+//    @NSManaged public var nativeName: String?
+//    @NSManaged public var numericCode: String?
+//    @NSManaged public var flag: String? //
+//    @NSManaged public var region: Region?
+//    @NSManaged public var subregion: Subregion?
+//    @NSManaged public var latlng: Location?
+//    @NSManaged public var timezones: NSSet?
+//    @NSManaged public var cioc: LiteralCountryCode? //
+//    @NSManaged public var borders: NSSet? //?
+//    @NSManaged public var currencies: NSSet? //
+//    @NSManaged public var languages: NSSet? //
+//    @NSManaged public var regionalBlocs: NSSet?
 }
 
 // MARK: Generated accessors for timezones

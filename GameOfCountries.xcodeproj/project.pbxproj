@@ -28,6 +28,11 @@
 		CB10845825BCE35A006D81C4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845725BCE35A006D81C4 /* Router.swift */; };
 		CB10845C25BCE508006D81C4 /* CountriesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */; };
 		CB10846225BCE57F006D81C4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10846125BCE57F006D81C4 /* String+Extensions.swift */; };
+		CB520F2B25BD1B88005D3C9B /* CodingUserInfoKey+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB520F2A25BD1B88005D3C9B /* CodingUserInfoKey+Extensions.swift */; };
+		CB520F2F25BD1CA3005D3C9B /* DecoderConfigurationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB520F2E25BD1CA3005D3C9B /* DecoderConfigurationError.swift */; };
+		CB520F3425BDDAB4005D3C9B /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = CB520F3325BDDAB4005D3C9B /* PromiseKit */; };
+		CB520F3825BDDD98005D3C9B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB520F3725BDDD97005D3C9B /* CoreDataStack.swift */; };
+		CB520F3C25BEDB80005D3C9B /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB520F3B25BEDB80005D3C9B /* DataProvider.swift */; };
 		CBE0B6E725BD06C400B99694 /* Timezone+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D525BD06C400B99694 /* Timezone+CoreDataClass.swift */; };
 		CBE0B6E825BD06C400B99694 /* Timezone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D625BD06C400B99694 /* Timezone+CoreDataProperties.swift */; };
 		CBE0B6E925BD06C400B99694 /* RegionalBloc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0B6D725BD06C400B99694 /* RegionalBloc+CoreDataClass.swift */; };
@@ -83,6 +88,10 @@
 		CB10845725BCE35A006D81C4 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CB10845B25BCE508006D81C4 /* CountriesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesEndpoint.swift; sourceTree = "<group>"; };
 		CB10846125BCE57F006D81C4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CB520F2A25BD1B88005D3C9B /* CodingUserInfoKey+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingUserInfoKey+Extensions.swift"; sourceTree = "<group>"; };
+		CB520F2E25BD1CA3005D3C9B /* DecoderConfigurationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderConfigurationError.swift; sourceTree = "<group>"; };
+		CB520F3725BDDD97005D3C9B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CB520F3B25BEDB80005D3C9B /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		CBE0B6D525BD06C400B99694 /* Timezone+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CBE0B6D625BD06C400B99694 /* Timezone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timezone+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CBE0B6D725BD06C400B99694 /* RegionalBloc+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionalBloc+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -109,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1083EC25BCB730006D81C4 /* Logging in Frameworks */,
+				CB520F3425BDDAB4005D3C9B /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +153,8 @@
 		CB1083D325BCA5AA006D81C4 /* GameOfCountries */ = {
 			isa = PBXGroup;
 			children = (
+				CB1083E225BCA5AC006D81C4 /* Info.plist */,
+				CB1083D425BCA5AA006D81C4 /* GameOfCountriesApp.swift */,
 				CB10842525BCDD11006D81C4 /* Application */,
 				CB10842625BCDFDB006D81C4 /* NetworkLayer */,
 				CB10845F25BCE55F006D81C4 /* Utilities */,
@@ -175,8 +187,6 @@
 		CB10842525BCDD11006D81C4 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				CB1083D425BCA5AA006D81C4 /* GameOfCountriesApp.swift */,
-				CB1083E225BCA5AC006D81C4 /* Info.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -202,6 +212,9 @@
 				CBE0B6C825BD031300B99694 /* Region */,
 				CBE0B6CB25BD031A00B99694 /* RegionalBloc */,
 				CBE0B6D025BD032500B99694 /* LiteralCountryCode */,
+				CB520F2E25BD1CA3005D3C9B /* DecoderConfigurationError.swift */,
+				CB520F3725BDDD97005D3C9B /* CoreDataStack.swift */,
+				CB520F3B25BEDB80005D3C9B /* DataProvider.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				CB10846125BCE57F006D81C4 /* String+Extensions.swift */,
+				CB520F2A25BD1B88005D3C9B /* CodingUserInfoKey+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -373,6 +387,7 @@
 			name = GameOfCountries;
 			packageProductDependencies = (
 				CB1083EB25BCB730006D81C4 /* Logging */,
+				CB520F3325BDDAB4005D3C9B /* PromiseKit */,
 			);
 			productName = GameOfCountries;
 			productReference = CB1083D125BCA5AA006D81C4 /* GameOfCountries.app */;
@@ -425,6 +440,7 @@
 			mainGroup = CB1083C825BCA5AA006D81C4;
 			packageReferences = (
 				CB1083EA25BCB730006D81C4 /* XCRemoteSwiftPackageReference "swift-log" */,
+				CB520F3225BDDAB4005D3C9B /* XCRemoteSwiftPackageReference "PromiseKit" */,
 			);
 			productRefGroup = CB1083D225BCA5AA006D81C4 /* Products */;
 			projectDirPath = "";
@@ -485,12 +501,15 @@
 				CB10844C25BCE1AD006D81C4 /* HTTPTask.swift in Sources */,
 				CBE0B6F125BD06C400B99694 /* LiteralCountryCode+CoreDataClass.swift in Sources */,
 				CB10843D25BCE129006D81C4 /* NetworkManager.swift in Sources */,
+				CB520F2B25BD1B88005D3C9B /* CodingUserInfoKey+Extensions.swift in Sources */,
+				CB520F2F25BD1CA3005D3C9B /* DecoderConfigurationError.swift in Sources */,
 				CB10843525BCE060006D81C4 /* UrlParameterEncoding.swift in Sources */,
 				CB10843125BCE043006D81C4 /* ParameterEncoding.swift in Sources */,
 				CB10844825BCE189006D81C4 /* HTTPMethod.swift in Sources */,
 				CBE0B6F225BD06C400B99694 /* LiteralCountryCode+CoreDataProperties.swift in Sources */,
 				CB10845025BCE1CC006D81C4 /* NetworkLogger.swift in Sources */,
 				CB1083EF25BCCC35006D81C4 /* Logger.swift in Sources */,
+				CB520F3C25BEDB80005D3C9B /* DataProvider.swift in Sources */,
 				CB10845825BCE35A006D81C4 /* Router.swift in Sources */,
 				CBE0B6E825BD06C400B99694 /* Timezone+CoreDataProperties.swift in Sources */,
 				CBE0B6ED25BD06C400B99694 /* Subregion+CoreDataClass.swift in Sources */,
@@ -506,6 +525,7 @@
 				CBE0B6E925BD06C400B99694 /* RegionalBloc+CoreDataClass.swift in Sources */,
 				CBE0B6EA25BD06C400B99694 /* RegionalBloc+CoreDataProperties.swift in Sources */,
 				CB10846225BCE57F006D81C4 /* String+Extensions.swift in Sources */,
+				CB520F3825BDDD98005D3C9B /* CoreDataStack.swift in Sources */,
 				CB10844425BCE167006D81C4 /* EndPointType.swift in Sources */,
 				CBE0B6F525BD06C400B99694 /* Currency+CoreDataClass.swift in Sources */,
 				CBE0B6F825BD06C400B99694 /* Location+CoreDataProperties.swift in Sources */,
@@ -779,6 +799,14 @@
 				minimumVersion = 1.4.0;
 			};
 		};
+		CB520F3225BDDAB4005D3C9B /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -786,6 +814,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CB1083EA25BCB730006D81C4 /* XCRemoteSwiftPackageReference "swift-log" */;
 			productName = Logging;
+		};
+		CB520F3325BDDAB4005D3C9B /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB520F3225BDDAB4005D3C9B /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 
