@@ -108,6 +108,6 @@ extension Country {
 
 }
 
-extension Country : Identifiable {
+extension Country: Identifiable {
 
 }

@@ -40,6 +40,6 @@ extension Currency {
 
 }
 
-extension Currency : Identifiable {
+extension Currency: Identifiable {
 
 }

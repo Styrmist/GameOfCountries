@@ -39,6 +39,6 @@ extension RegionalBloc {
 
 }
 
-extension RegionalBloc : Identifiable {
+extension RegionalBloc: Identifiable {
 
 }

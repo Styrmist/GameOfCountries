@@ -38,6 +38,6 @@ extension Region {
 
 }
 
-extension Region : Identifiable {
+extension Region: Identifiable {
 
 }

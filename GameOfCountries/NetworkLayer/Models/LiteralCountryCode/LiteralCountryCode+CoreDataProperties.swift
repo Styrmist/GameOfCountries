@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 extension LiteralCountryCode {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<LiteralCountryCode> {
@@ -38,6 +37,6 @@ extension LiteralCountryCode {
 
 }
 
-extension LiteralCountryCode : Identifiable {
+extension LiteralCountryCode: Identifiable {
 
 }

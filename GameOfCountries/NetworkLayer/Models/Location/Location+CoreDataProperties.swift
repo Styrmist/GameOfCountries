@@ -19,9 +19,8 @@ extension Location {
     @NSManaged public var latitude: Double
     @NSManaged public var longitude: Double
     @NSManaged public var country: Country?
-
 }
 
-extension Location : Identifiable {
+extension Location: Identifiable {
 
 }

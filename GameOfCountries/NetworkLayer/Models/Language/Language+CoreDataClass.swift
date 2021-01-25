@@ -10,6 +10,6 @@ import Foundation
 import CoreData
 
 
-public class Language: NSManagedObject {
+public class Language: NSManagedObject, Codable {
 
 }

@@ -38,6 +38,6 @@ extension Subregion {
 
 }
 
-extension Subregion : Identifiable {
+extension Subregion: Identifiable {
 
 }

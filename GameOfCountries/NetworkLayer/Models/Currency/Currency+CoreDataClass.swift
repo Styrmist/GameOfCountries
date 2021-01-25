@@ -10,6 +10,6 @@ import Foundation
 import CoreData
 
 
-public class Currency: NSManagedObject {
+public class Currency: NSManagedObject, Codable {
 
 }

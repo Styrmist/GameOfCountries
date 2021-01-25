@@ -10,6 +10,6 @@ import Foundation
 import CoreData
 
 
-public class Country: NSManagedObject {
+public class Country: NSManagedObject, Codable {
 
 }
